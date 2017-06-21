@@ -1,0 +1,11 @@
+(function () {
+    if (!window.fdApp) {
+        window.fdApp = {};
+    }
+    window.fdApp.dataStorage ={{.}};
+
+    if (window.fdApp.preFillSearchForm) {
+        window.fdApp.preFillSearchForm();
+    }
+
+})();
